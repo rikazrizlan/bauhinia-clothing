@@ -29,15 +29,14 @@ class Products {
     async getProducts() {
         try {
             
-            let contentful = await client.getEntries({
-                content_type: 'comfyHouseProducts'
-            });
-                console.log(contentful);
+            //let contentful = await client.getEntries({
+              //  content_type: 'comfyHouseProducts'
+            //});
 
-            //let result = await fetch("products.json");
-            //let data = await result.json();
+            let result = await fetch("products.json");
+            let data = await result.json();
 
-            let products = contentful.items;
+            let products = data.items;
             // we use a map method to get the attributes from the items array
             products = products.map(item => {
                 const {title,price} = item.fields;
