@@ -1,0 +1,25 @@
+24.08.2020
+- Learned two local storage methods, setItem and getItem
+- revisited asyn/await
+- revisited classes, objects, static methods and instances
+- got to know better about chrome dev tools
+- got introduced to contentful
+- revisited callback functions
+- revisited event listeners
+- representing each entity as a class makes code easier to understand
+- revisited .map() method
+
+1/30
+- learned about .createElement() method
+- revisited adding and removing classes throug javascript
+- we us "this" keywork to access a method that is present in the current class we are working with
+- revisited adding and removing child elements
+
+2/30
+- got introduced to event bubbling
+- learned about the nextElementSibling method
+- learned to traverse the DOM elements
+
+3/30
+- learned about previousElementSibling
+- got introduced to contentful
