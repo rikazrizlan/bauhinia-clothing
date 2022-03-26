@@ -17,8 +17,6 @@ const cartItems = document.querySelector('.cart-items');
 const cartTotal = document.querySelector('.cart-total');
 const cartContent = document.querySelector('.cart-content');
 const productsDOM = document.querySelector('.products-center');
-const checkoutAmount = document.querySelector('.checkout_amount');
-
 
 // cart
 let cart = [];
@@ -122,7 +120,6 @@ class UI {
             itemsTotal += item.amount;
         })
         cartTotal.innerText = parseFloat(tempTotal.toFixed(2));
-        checkoutAmount.value = parseFloat(tempTotal.toFixed(2));
         cartItems.innerText = itemsTotal;
     }
     addCartItem(item){
